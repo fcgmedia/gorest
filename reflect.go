@@ -110,7 +110,7 @@ func mapFieldsToMethods(t reflect.Type, f reflect.StructField, typeFullName stri
 		}
 		ep.methodNumberInParent = methodNumberInParent
 		_manager().addEndPoint(ep)
-		log.Println("Registerd service:", t.Name(), " endpoint:", ep.requestMethod, ep.signiture)
+		log.Println("Registered service:", t.Name(), " endpoint:", ep.requestMethod, ep.signiture)
 	}
 }
 
