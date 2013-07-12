@@ -19,14 +19,14 @@ Creating services in Go is straight forward, GoREST takes this a step further by
 **Step 1: Get**
 
 ```
-go get github.com/hourlyhost/gorest
+go get github.com/HourlyHost/gorest
 ```
 
 **Step 2: Import**
 
 ```Go
 import (
-  "github.com/hourlyhost/gorest"
+  "github.com/HourlyHost/gorest"
 )
 ```
 
