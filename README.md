@@ -5,6 +5,8 @@ GoREST
 
 GoREST is a RESTful style web-services framework. [Originally](https://code.google.com/p/gorest/) created by Siyabonga Dlamini.
 
+This release adds support for PATCH requests and fixes typographical errors.
+
 Creating services in Go is straight forward, GoREST takes this a step further by adding a layer that makes tedious tasks much more automated and avoids regular pitfalls. This gives you the opportunity to focus more on the task at hand: minor low-level HTTP handling. 
 
 * Type safe conversion of URL parameters into method arguments.
